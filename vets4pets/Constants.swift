@@ -7,6 +7,9 @@
 
 import Foundation
 
+let REALM_QUEUE = DispatchQueue(label: "realmQueue") //global variable
+let REALM = "realRunConfig"
+
 struct K {
  
     static let cellIdentifier = "ReusableCell"
