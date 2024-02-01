@@ -16,6 +16,7 @@
 		F4AE15D52B6BA7A200388609 /* vets4petsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AE15D42B6BA7A200388609 /* vets4petsTests.swift */; };
 		F4AE15DF2B6BA7A200388609 /* vets4petsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AE15DE2B6BA7A200388609 /* vets4petsUITests.swift */; };
 		F4AE15E12B6BA7A200388609 /* vets4petsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AE15E02B6BA7A200388609 /* vets4petsUITestsLaunchTests.swift */; };
+		F4AE15EE2B6BA88500388609 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AE15ED2B6BA88500388609 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F4AE15DA2B6BA7A200388609 /* vets4petsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vets4petsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4AE15DE2B6BA7A200388609 /* vets4petsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vets4petsUITests.swift; sourceTree = "<group>"; };
 		F4AE15E02B6BA7A200388609 /* vets4petsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vets4petsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F4AE15ED2B6BA88500388609 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				F4AE15BD2B6BA79F00388609 /* AppDelegate.swift */,
 				F4AE15BF2B6BA79F00388609 /* SceneDelegate.swift */,
 				F4AE15C12B6BA79F00388609 /* ViewController.swift */,
+				F4AE15ED2B6BA88500388609 /* Constants.swift */,
 				F4AE15C32B6BA79F00388609 /* Main.storyboard */,
 				F4AE15C62B6BA7A100388609 /* Assets.xcassets */,
 				F4AE15C82B6BA7A100388609 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 				F4AE15C22B6BA79F00388609 /* ViewController.swift in Sources */,
 				F4AE15BE2B6BA79F00388609 /* AppDelegate.swift in Sources */,
 				F4AE15C02B6BA79F00388609 /* SceneDelegate.swift in Sources */,
+				F4AE15EE2B6BA88500388609 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +461,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = snigdha.vets4pets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -485,6 +493,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = snigdha.vets4pets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
