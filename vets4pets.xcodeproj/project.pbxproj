@@ -72,6 +72,9 @@
 		F4AE16A42B6C144F00388609 /* CalendarKit in Frameworks */ = {isa = PBXBuildFile; productRef = F4AE16A32B6C144F00388609 /* CalendarKit */; };
 		F4AE16A72B6C149100388609 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = F4AE16A62B6C149100388609 /* Realm */; };
 		F4AE16A92B6C149100388609 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F4AE16A82B6C149100388609 /* RealmSwift */; };
+		F4FBCC652B6C1C9E00498170 /* NotificationPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FBCC642B6C1C9E00498170 /* NotificationPublisher.swift */; };
+		F4FBCC662B6C1C9E00498170 /* NotificationPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FBCC642B6C1C9E00498170 /* NotificationPublisher.swift */; };
+		F4FBCC672B6C1C9E00498170 /* NotificationPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FBCC642B6C1C9E00498170 /* NotificationPublisher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,6 +129,7 @@
 		F4AE16672B6C0D3D00388609 /* LocationVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationVCViewController.swift; sourceTree = "<group>"; };
 		F4AE16682B6C0D3D00388609 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		F4AE16692B6C0D3D00388609 /* MapKitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapKitViewController.swift; sourceTree = "<group>"; };
+		F4FBCC642B6C1C9E00498170 /* NotificationPublisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationPublisher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +191,7 @@
 			children = (
 				F4AE15F72B6BB13300388609 /* GoogleService-Info.plist */,
 				F4AE15BD2B6BA79F00388609 /* AppDelegate.swift */,
+				F4FBCC642B6C1C9E00498170 /* NotificationPublisher.swift */,
 				F4AE15BF2B6BA79F00388609 /* SceneDelegate.swift */,
 				F4AE15C12B6BA79F00388609 /* ViewController.swift */,
 				F4AE16502B6C05A200388609 /* AppointmentViewController.swift */,
@@ -395,6 +400,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4FBCC652B6C1C9E00498170 /* NotificationPublisher.swift in Sources */,
 				F4AE16512B6C05A200388609 /* AppointmentViewController.swift in Sources */,
 				F4AE15F22B6BAFB200388609 /* SignUpViewController.swift in Sources */,
 				F4AE163B2B6BD1D200388609 /* MessageCell.swift in Sources */,
@@ -429,6 +435,7 @@
 				F4AE165A2B6C0BAE00388609 /* EKWrapper.swift in Sources */,
 				F4AE16522B6C05A200388609 /* AppointmentViewController.swift in Sources */,
 				F4AE16772B6C0D3D00388609 /* MapKitViewController.swift in Sources */,
+				F4FBCC662B6C1C9E00498170 /* NotificationPublisher.swift in Sources */,
 				F4AE16602B6C0D2C00388609 /* Walk.swift in Sources */,
 				F4AE16742B6C0D3D00388609 /* Extensions.swift in Sources */,
 				F4AE16712B6C0D3D00388609 /* LocationVCViewController.swift in Sources */,
@@ -445,6 +452,7 @@
 				F4AE16532B6C05A200388609 /* AppointmentViewController.swift in Sources */,
 				F4AE15DF2B6BA7A200388609 /* vets4petsUITests.swift in Sources */,
 				F4AE16782B6C0D3D00388609 /* MapKitViewController.swift in Sources */,
+				F4FBCC672B6C1C9E00498170 /* NotificationPublisher.swift in Sources */,
 				F4AE163D2B6BD1D200388609 /* MessageCell.swift in Sources */,
 				F4AE166C2B6C0D3D00388609 /* WalkLogCell.swift in Sources */,
 				F4AE166F2B6C0D3D00388609 /* WalkLogViewController.swift in Sources */,

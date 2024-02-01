@@ -274,33 +274,35 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EhT-06-maM">
-                                <rect key="frame" x="119" y="646" width="184" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Chat with a doctor." buttonSize="large"/>
-                                <connections>
-                                    <segue destination="Knr-1R-yqa" kind="show" id="6FI-Mc-u0Z"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HZF-sV-eMJ">
-                                <rect key="frame" x="110" y="587" width="203" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Book an appointment" buttonSize="large"/>
-                                <connections>
-                                    <segue destination="48K-V3-mav" kind="show" id="BTs-8l-hig"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C9l-B7-TSp">
-                                <rect key="frame" x="146" y="528" width="132" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Track Walks" buttonSize="large"/>
-                                <connections>
-                                    <segue destination="38N-xU-9C3" kind="show" id="woZ-Si-HDR"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="ggG-sK-oTk">
+                                <rect key="frame" x="90.5" y="528" width="202.33333333333337" height="167"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C9l-B7-TSp">
+                                        <rect key="frame" x="35.666666666666671" y="0.0" width="131.33333333333331" height="50.333333333333336"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Track Walks" buttonSize="large"/>
+                                        <connections>
+                                            <segue destination="38N-xU-9C3" kind="show" id="woZ-Si-HDR"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HZF-sV-eMJ">
+                                        <rect key="frame" x="0.0" y="58.333333333333329" width="202.33333333333334" height="50.333333333333329"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Book an appointment" buttonSize="large"/>
+                                        <connections>
+                                            <segue destination="48K-V3-mav" kind="show" id="BTs-8l-hig"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EhT-06-maM">
+                                        <rect key="frame" x="9.3333333333333286" y="116.66666666666667" width="183.66666666666669" height="50.333333333333329"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Chat with a doctor." buttonSize="large"/>
+                                        <connections>
+                                            <segue destination="Knr-1R-yqa" kind="show" id="6FI-Mc-u0Z"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Ptb-H3-8EX"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
@@ -325,7 +327,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bbV-bj-CLG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4385" y="-147"/>
+            <point key="canvasLocation" x="4479" y="-161"/>
         </scene>
         <!--AdminHomeView-->
         <scene sceneID="U2C-5H-CRJ">
@@ -391,7 +393,7 @@
         <!--⚡️FlashChat-->
         <scene sceneID="ReN-uN-ucf">
             <objects>
-                <viewController id="Knr-1R-yqa" customClass="ChatViewController" customModule="Flash_Chat_iOS13" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Knr-1R-yqa" customClass="ChatViewController" customModule="vets4pets" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MAW-Q8-nnz">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -464,12 +466,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7N8-FZ-FdZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4097" y="515"/>
+            <point key="canvasLocation" x="4479" y="534"/>
         </scene>
         <!--Map View Controller-->
         <scene sceneID="vD6-DF-OzM">
             <objects>
-                <viewController title="Map View Controller" id="38N-xU-9C3" customClass="MapViewController" customModule="IA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Map View Controller" id="38N-xU-9C3" customClass="MapViewController" customModule="vets4pets" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aNF-uh-yDa">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -644,7 +646,7 @@
         <!--Walk Log View Controller-->
         <scene sceneID="6cU-8S-07e">
             <objects>
-                <viewController id="yaY-gP-z0G" customClass="WalkLogViewController" customModule="IA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="yaY-gP-z0G" customClass="WalkLogViewController" customModule="vets4pets" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BR4-Ui-QVk">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -654,7 +656,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="WalkLogCell" id="drE-Ru-3V6" customClass="WalkLogCell" customModule="IA" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="WalkLogCell" id="drE-Ru-3V6" customClass="WalkLogCell" customModule="vets4pets" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="393" height="42"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="drE-Ru-3V6" id="zVb-HK-0YL">
