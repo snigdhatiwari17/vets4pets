@@ -17,6 +17,10 @@
 		F4AE15DF2B6BA7A200388609 /* vets4petsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AE15DE2B6BA7A200388609 /* vets4petsUITests.swift */; };
 		F4AE15E12B6BA7A200388609 /* vets4petsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AE15E02B6BA7A200388609 /* vets4petsUITestsLaunchTests.swift */; };
 		F4AE15EE2B6BA88500388609 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AE15ED2B6BA88500388609 /* Constants.swift */; };
+		F4AE15F02B6BAF6E00388609 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AE15EF2B6BAF6E00388609 /* LogInViewController.swift */; };
+		F4AE15F22B6BAFB200388609 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AE15F12B6BAFB200388609 /* SignUpViewController.swift */; };
+		F4AE15F42B6BAFE400388609 /* MoreDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AE15F32B6BAFE400388609 /* MoreDetailsViewController.swift */; };
+		F4AE15F62B6BB00E00388609 /* CustomerHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AE15F52B6BB00E00388609 /* CustomerHomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		F4AE15DE2B6BA7A200388609 /* vets4petsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vets4petsUITests.swift; sourceTree = "<group>"; };
 		F4AE15E02B6BA7A200388609 /* vets4petsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vets4petsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F4AE15ED2B6BA88500388609 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F4AE15EF2B6BAF6E00388609 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		F4AE15F12B6BAFB200388609 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		F4AE15F32B6BAFE400388609 /* MoreDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreDetailsViewController.swift; sourceTree = "<group>"; };
+		F4AE15F52B6BB00E00388609 /* CustomerHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerHomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +112,10 @@
 				F4AE15BD2B6BA79F00388609 /* AppDelegate.swift */,
 				F4AE15BF2B6BA79F00388609 /* SceneDelegate.swift */,
 				F4AE15C12B6BA79F00388609 /* ViewController.swift */,
+				F4AE15EF2B6BAF6E00388609 /* LogInViewController.swift */,
+				F4AE15F12B6BAFB200388609 /* SignUpViewController.swift */,
+				F4AE15F32B6BAFE400388609 /* MoreDetailsViewController.swift */,
+				F4AE15F52B6BB00E00388609 /* CustomerHomeViewController.swift */,
 				F4AE15ED2B6BA88500388609 /* Constants.swift */,
 				F4AE15C32B6BA79F00388609 /* Main.storyboard */,
 				F4AE15C62B6BA7A100388609 /* Assets.xcassets */,
@@ -261,9 +273,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4AE15F22B6BAFB200388609 /* SignUpViewController.swift in Sources */,
 				F4AE15C22B6BA79F00388609 /* ViewController.swift in Sources */,
+				F4AE15F62B6BB00E00388609 /* CustomerHomeViewController.swift in Sources */,
 				F4AE15BE2B6BA79F00388609 /* AppDelegate.swift in Sources */,
+				F4AE15F42B6BAFE400388609 /* MoreDetailsViewController.swift in Sources */,
 				F4AE15C02B6BA79F00388609 /* SceneDelegate.swift in Sources */,
+				F4AE15F02B6BAF6E00388609 /* LogInViewController.swift in Sources */,
 				F4AE15EE2B6BA88500388609 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
