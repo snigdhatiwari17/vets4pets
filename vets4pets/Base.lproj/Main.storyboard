@@ -68,7 +68,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="username..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4kf-4a-IxB">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4kf-4a-IxB">
                                 <rect key="frame" x="48" y="141" width="297" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -76,14 +76,15 @@
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5pr-ml-CxB">
                                 <rect key="frame" x="48" y="183" width="297" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Beo-1W-isT">
                                 <rect key="frame" x="154.66666666666666" y="237" width="84" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Sign Up"/>
                                 <connections>
-                                    <segue destination="z1Q-6a-2RQ" kind="show" id="prY-bE-w6N"/>
+                                    <action selector="signUpPressed:" destination="Ajx-4N-3Ct" eventType="touchUpInside" id="wwa-Pi-VMY"/>
+                                    <segue destination="z1Q-6a-2RQ" kind="show" identifier="toMoreDetails" id="prY-bE-w6N"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -105,6 +106,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="G3d-sT-0Lj"/>
+                    <connections>
+                        <outlet property="passwordTextfield" destination="5pr-ml-CxB" id="knr-7y-g6W"/>
+                        <outlet property="usernameTextfield" destination="4kf-4a-IxB" id="18o-J3-6MS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XIt-dF-vzm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -210,6 +215,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Log In"/>
                                 <connections>
+                                    <action selector="logInPressed:" destination="hAy-g3-w13" eventType="touchUpInside" id="2cz-JB-gGS"/>
                                     <segue destination="Uez-Km-ECe" kind="show" id="0Ct-en-RgU"/>
                                 </connections>
                             </button>
@@ -241,6 +247,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="SI5-YC-5OH"/>
+                    <connections>
+                        <outlet property="passwordTextfield" destination="n1U-2L-FhM" id="opT-fa-CXm"/>
+                        <outlet property="usernameTextfield" destination="1H8-VU-rce" id="YTY-xe-HPi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ioQ-30-GYP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -282,7 +292,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="N7D-ud-8sM"/>
+        <segue reference="0Ct-en-RgU"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemYellowColor">

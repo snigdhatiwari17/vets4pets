@@ -10,6 +10,6 @@ import Foundation
 struct K {
     
   static let appName = "Vets4Pets🐶"
-    
+    static let moreDetailsSegue = "toMoreDetails"
 }
 
