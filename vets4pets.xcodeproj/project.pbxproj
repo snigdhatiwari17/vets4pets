@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		F4AE15BE2B6BA79F00388609 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AE15BD2B6BA79F00388609 /* AppDelegate.swift */; };
 		F4AE15C02B6BA79F00388609 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AE15BF2B6BA79F00388609 /* SceneDelegate.swift */; };
-		F4AE15C22B6BA79F00388609 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AE15C12B6BA79F00388609 /* ViewController.swift */; };
+		F4AE15C22B6BA79F00388609 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AE15C12B6BA79F00388609 /* WelcomeViewController.swift */; };
 		F4AE15C52B6BA79F00388609 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4AE15C32B6BA79F00388609 /* Main.storyboard */; };
 		F4AE15C72B6BA7A100388609 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4AE15C62B6BA7A100388609 /* Assets.xcassets */; };
 		F4AE15CA2B6BA7A100388609 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4AE15C82B6BA7A100388609 /* LaunchScreen.storyboard */; };
@@ -72,6 +72,18 @@
 		F4AE16A42B6C144F00388609 /* CalendarKit in Frameworks */ = {isa = PBXBuildFile; productRef = F4AE16A32B6C144F00388609 /* CalendarKit */; };
 		F4AE16A72B6C149100388609 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = F4AE16A62B6C149100388609 /* Realm */; };
 		F4AE16A92B6C149100388609 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F4AE16A82B6C149100388609 /* RealmSwift */; };
+		F4D6BF2B2B6D2D700088CBA5 /* SecretKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D6BF272B6D2D6F0088CBA5 /* SecretKey.swift */; };
+		F4D6BF2C2B6D2D700088CBA5 /* SecretKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D6BF272B6D2D6F0088CBA5 /* SecretKey.swift */; };
+		F4D6BF2D2B6D2D700088CBA5 /* SecretKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D6BF272B6D2D6F0088CBA5 /* SecretKey.swift */; };
+		F4D6BF2E2B6D2D700088CBA5 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D6BF282B6D2D6F0088CBA5 /* NewsTableViewCell.swift */; };
+		F4D6BF2F2B6D2D700088CBA5 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D6BF282B6D2D6F0088CBA5 /* NewsTableViewCell.swift */; };
+		F4D6BF302B6D2D700088CBA5 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D6BF282B6D2D6F0088CBA5 /* NewsTableViewCell.swift */; };
+		F4D6BF342B6D2D700088CBA5 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D6BF2A2B6D2D700088CBA5 /* APICaller.swift */; };
+		F4D6BF352B6D2D700088CBA5 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D6BF2A2B6D2D700088CBA5 /* APICaller.swift */; };
+		F4D6BF362B6D2D700088CBA5 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D6BF2A2B6D2D700088CBA5 /* APICaller.swift */; };
+		F4D6BF382B6D2EC20088CBA5 /* BlogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D6BF372B6D2EC20088CBA5 /* BlogViewController.swift */; };
+		F4D6BF392B6D2EC20088CBA5 /* BlogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D6BF372B6D2EC20088CBA5 /* BlogViewController.swift */; };
+		F4D6BF3A2B6D2EC20088CBA5 /* BlogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D6BF372B6D2EC20088CBA5 /* BlogViewController.swift */; };
 		F4FBCC652B6C1C9E00498170 /* NotificationPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FBCC642B6C1C9E00498170 /* NotificationPublisher.swift */; };
 		F4FBCC662B6C1C9E00498170 /* NotificationPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FBCC642B6C1C9E00498170 /* NotificationPublisher.swift */; };
 		F4FBCC672B6C1C9E00498170 /* NotificationPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FBCC642B6C1C9E00498170 /* NotificationPublisher.swift */; };
@@ -98,7 +110,7 @@
 		F4AE15BA2B6BA79F00388609 /* vets4pets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vets4pets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4AE15BD2B6BA79F00388609 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4AE15BF2B6BA79F00388609 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F4AE15C12B6BA79F00388609 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4AE15C12B6BA79F00388609 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		F4AE15C42B6BA79F00388609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4AE15C62B6BA7A100388609 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4AE15C92B6BA7A100388609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -129,6 +141,10 @@
 		F4AE16672B6C0D3D00388609 /* LocationVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationVCViewController.swift; sourceTree = "<group>"; };
 		F4AE16682B6C0D3D00388609 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		F4AE16692B6C0D3D00388609 /* MapKitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapKitViewController.swift; sourceTree = "<group>"; };
+		F4D6BF272B6D2D6F0088CBA5 /* SecretKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecretKey.swift; sourceTree = "<group>"; };
+		F4D6BF282B6D2D6F0088CBA5 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		F4D6BF2A2B6D2D700088CBA5 /* APICaller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		F4D6BF372B6D2EC20088CBA5 /* BlogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogViewController.swift; sourceTree = "<group>"; };
 		F4FBCC642B6C1C9E00498170 /* NotificationPublisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationPublisher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -190,10 +206,14 @@
 			isa = PBXGroup;
 			children = (
 				F4AE15F72B6BB13300388609 /* GoogleService-Info.plist */,
+				F4D6BF2A2B6D2D700088CBA5 /* APICaller.swift */,
+				F4D6BF282B6D2D6F0088CBA5 /* NewsTableViewCell.swift */,
+				F4D6BF372B6D2EC20088CBA5 /* BlogViewController.swift */,
+				F4D6BF272B6D2D6F0088CBA5 /* SecretKey.swift */,
 				F4AE15BD2B6BA79F00388609 /* AppDelegate.swift */,
 				F4FBCC642B6C1C9E00498170 /* NotificationPublisher.swift */,
 				F4AE15BF2B6BA79F00388609 /* SceneDelegate.swift */,
-				F4AE15C12B6BA79F00388609 /* ViewController.swift */,
+				F4AE15C12B6BA79F00388609 /* WelcomeViewController.swift */,
 				F4AE16502B6C05A200388609 /* AppointmentViewController.swift */,
 				F4AE165E2B6C0D2B00388609 /* Location.swift */,
 				F4AE165D2B6C0D2B00388609 /* Walk.swift */,
@@ -406,10 +426,13 @@
 				F4AE163B2B6BD1D200388609 /* MessageCell.swift in Sources */,
 				F4AE16592B6C0BAE00388609 /* EKWrapper.swift in Sources */,
 				F4AE163F2B6BD23F00388609 /* ChatViewController.swift in Sources */,
-				F4AE15C22B6BA79F00388609 /* ViewController.swift in Sources */,
+				F4AE15C22B6BA79F00388609 /* WelcomeViewController.swift in Sources */,
+				F4D6BF2B2B6D2D700088CBA5 /* SecretKey.swift in Sources */,
+				F4D6BF2E2B6D2D700088CBA5 /* NewsTableViewCell.swift in Sources */,
 				F4AE16762B6C0D3D00388609 /* MapKitViewController.swift in Sources */,
 				F4AE16702B6C0D3D00388609 /* LocationVCViewController.swift in Sources */,
 				F4AE16732B6C0D3D00388609 /* Extensions.swift in Sources */,
+				F4D6BF342B6D2D700088CBA5 /* APICaller.swift in Sources */,
 				F4AE15F62B6BB00E00388609 /* CustomerHomeViewController.swift in Sources */,
 				F4AE16622B6C0D2C00388609 /* Location.swift in Sources */,
 				F4AE15BE2B6BA79F00388609 /* AppDelegate.swift in Sources */,
@@ -418,6 +441,7 @@
 				F4AE15F42B6BAFE400388609 /* MoreDetailsViewController.swift in Sources */,
 				F4AE15C02B6BA79F00388609 /* SceneDelegate.swift in Sources */,
 				F4AE15F02B6BAF6E00388609 /* LogInViewController.swift in Sources */,
+				F4D6BF382B6D2EC20088CBA5 /* BlogViewController.swift in Sources */,
 				F4AE166A2B6C0D3D00388609 /* WalkLogCell.swift in Sources */,
 				F4AE165F2B6C0D2C00388609 /* Walk.swift in Sources */,
 				F4AE15EE2B6BA88500388609 /* Constants.swift in Sources */,
@@ -429,6 +453,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4AE15D52B6BA7A200388609 /* vets4petsTests.swift in Sources */,
+				F4D6BF2C2B6D2D700088CBA5 /* SecretKey.swift in Sources */,
+				F4D6BF2F2B6D2D700088CBA5 /* NewsTableViewCell.swift in Sources */,
 				F4AE16442B6BD2A500388609 /* Message.swift in Sources */,
 				F4AE16632B6C0D2C00388609 /* Location.swift in Sources */,
 				F4AE16402B6BD23F00388609 /* ChatViewController.swift in Sources */,
@@ -438,7 +464,9 @@
 				F4FBCC662B6C1C9E00498170 /* NotificationPublisher.swift in Sources */,
 				F4AE16602B6C0D2C00388609 /* Walk.swift in Sources */,
 				F4AE16742B6C0D3D00388609 /* Extensions.swift in Sources */,
+				F4D6BF352B6D2D700088CBA5 /* APICaller.swift in Sources */,
 				F4AE16712B6C0D3D00388609 /* LocationVCViewController.swift in Sources */,
+				F4D6BF392B6D2EC20088CBA5 /* BlogViewController.swift in Sources */,
 				F4AE166B2B6C0D3D00388609 /* WalkLogCell.swift in Sources */,
 				F4AE166E2B6C0D3D00388609 /* WalkLogViewController.swift in Sources */,
 				F4AE163C2B6BD1D200388609 /* MessageCell.swift in Sources */,
@@ -449,6 +477,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4D6BF3A2B6D2EC20088CBA5 /* BlogViewController.swift in Sources */,
 				F4AE16532B6C05A200388609 /* AppointmentViewController.swift in Sources */,
 				F4AE15DF2B6BA7A200388609 /* vets4petsUITests.swift in Sources */,
 				F4AE16782B6C0D3D00388609 /* MapKitViewController.swift in Sources */,
@@ -456,12 +485,15 @@
 				F4AE163D2B6BD1D200388609 /* MessageCell.swift in Sources */,
 				F4AE166C2B6C0D3D00388609 /* WalkLogCell.swift in Sources */,
 				F4AE166F2B6C0D3D00388609 /* WalkLogViewController.swift in Sources */,
+				F4D6BF362B6D2D700088CBA5 /* APICaller.swift in Sources */,
 				F4AE16452B6BD2A500388609 /* Message.swift in Sources */,
 				F4AE16722B6C0D3D00388609 /* LocationVCViewController.swift in Sources */,
+				F4D6BF2D2B6D2D700088CBA5 /* SecretKey.swift in Sources */,
 				F4AE16642B6C0D2C00388609 /* Location.swift in Sources */,
 				F4AE16752B6C0D3D00388609 /* Extensions.swift in Sources */,
 				F4AE16612B6C0D2C00388609 /* Walk.swift in Sources */,
 				F4AE16412B6BD23F00388609 /* ChatViewController.swift in Sources */,
+				F4D6BF302B6D2D700088CBA5 /* NewsTableViewCell.swift in Sources */,
 				F4AE15E12B6BA7A200388609 /* vets4petsUITestsLaunchTests.swift in Sources */,
 				F4AE165B2B6C0BAE00388609 /* EKWrapper.swift in Sources */,
 			);

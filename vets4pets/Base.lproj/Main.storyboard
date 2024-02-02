@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Welcome View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="vets4pets" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="WelcomeViewController" customModule="vets4pets" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -259,6 +259,22 @@
             </objects>
             <point key="canvasLocation" x="1969" y="4"/>
         </scene>
+        <!--Blog View-->
+        <scene sceneID="Uso-Qh-beV">
+            <objects>
+                <viewController title="Blog View" id="zPI-Mo-8qe" customClass="BlogViewController" customModule="vets4pets" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gUR-ni-ZwT">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="uox-uh-Iat"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="DJ8-vt-hfG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p1C-MH-ylW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2547" y="-655"/>
+        </scene>
         <!--CustomerHomeView-->
         <scene sceneID="poe-JA-Oil">
             <objects>
@@ -274,44 +290,67 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="ggG-sK-oTk">
-                                <rect key="frame" x="90.5" y="528" width="202.33333333333337" height="167"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="7xL-Bc-ycV">
+                                <rect key="frame" x="5" y="509" width="383" height="187"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C9l-B7-TSp">
-                                        <rect key="frame" x="35.666666666666671" y="0.0" width="131.33333333333331" height="50.333333333333336"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Track Walks" buttonSize="large"/>
-                                        <connections>
-                                            <segue destination="38N-xU-9C3" kind="show" id="woZ-Si-HDR"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HZF-sV-eMJ">
-                                        <rect key="frame" x="0.0" y="58.333333333333329" width="202.33333333333334" height="50.333333333333329"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Book an appointment" buttonSize="large"/>
-                                        <connections>
-                                            <segue destination="48K-V3-mav" kind="show" id="BTs-8l-hig"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EhT-06-maM">
-                                        <rect key="frame" x="9.3333333333333286" y="116.66666666666667" width="183.66666666666669" height="50.333333333333329"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Chat with a doctor." buttonSize="large"/>
-                                        <connections>
-                                            <segue destination="Knr-1R-yqa" kind="show" id="6FI-Mc-u0Z"/>
-                                        </connections>
-                                    </button>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="ggG-sK-oTk">
+                                        <rect key="frame" x="0.0" y="0.0" width="186" height="187"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C9l-B7-TSp">
+                                                <rect key="frame" x="27.333333333333329" y="0.0" width="131.33333333333337" height="50.333333333333336"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Track Walks" buttonSize="large"/>
+                                                <connections>
+                                                    <segue destination="38N-xU-9C3" kind="show" id="woZ-Si-HDR"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HZF-sV-eMJ">
+                                                <rect key="frame" x="25" y="58.333333333333364" width="136.33333333333334" height="70.333333333333314"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Book an appointment" buttonSize="large"/>
+                                                <connections>
+                                                    <segue destination="48K-V3-mav" kind="show" id="BTs-8l-hig"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EhT-06-maM">
+                                                <rect key="frame" x="1.3333333333333286" y="136.66666666666663" width="183.66666666666669" height="50.333333333333343"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Chat with a doctor." buttonSize="large"/>
+                                                <connections>
+                                                    <segue destination="Knr-1R-yqa" kind="show" id="6FI-Mc-u0Z"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="HJE-tX-UfG">
+                                        <rect key="frame" x="197" y="76.333333333333371" width="186" height="34.333333333333343"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m45-9y-f6f">
+                                                <rect key="frame" x="0.0" y="0.0" width="186" height="34.333333333333336"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Blog"/>
+                                                <connections>
+                                                    <segue destination="zPI-Mo-8qe" kind="show" id="FyB-Q1-DJR"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Ptb-H3-8EX"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="7xL-Bc-ycV" secondAttribute="trailing" constant="5" id="RYS-Nf-oVA"/>
+                            <constraint firstItem="7xL-Bc-ycV" firstAttribute="leading" secondItem="HE0-zl-12B" secondAttribute="leading" constant="5" id="VPM-a0-eBH"/>
+                            <constraint firstItem="Ptb-H3-8EX" firstAttribute="bottom" secondItem="7xL-Bc-ycV" secondAttribute="bottom" constant="122" id="aO0-fP-L9H"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="yxK-uG-4X9"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tey-iI-ghz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2866" y="45"/>
+            <point key="canvasLocation" x="2864.8854961832062" y="44.366197183098592"/>
         </scene>
         <!--AppointmentViewController-->
         <scene sceneID="sia-Kv-wdS">
@@ -327,7 +366,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bbV-bj-CLG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4479" y="-161"/>
+            <point key="canvasLocation" x="4677" y="-375"/>
         </scene>
         <!--AdminHomeView-->
         <scene sceneID="U2C-5H-CRJ">
@@ -641,7 +680,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E06-AU-mnc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3662" y="-608"/>
+            <point key="canvasLocation" x="3859" y="-166"/>
         </scene>
         <!--Walk Log View Controller-->
         <scene sceneID="6cU-8S-07e">
