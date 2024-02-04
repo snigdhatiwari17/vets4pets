@@ -259,6 +259,43 @@
             </objects>
             <point key="canvasLocation" x="1969" y="4"/>
         </scene>
+        <!--PaymentView-->
+        <scene sceneID="Vwd-Ve-isO">
+            <objects>
+                <viewController title="PaymentView" id="BMm-Y7-EC4" customClass="PaymentViewController" customModule="vets4pets" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YO7-9d-kQl" customClass="Paym">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WcA-D1-Rko">
+                                <rect key="frame" x="152" y="409" width="90" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Pay Now"/>
+                                <connections>
+                                    <action selector="paymentClicked:" destination="BMm-Y7-EC4" eventType="touchUpInside" id="VvW-8Z-fE7"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="enter amount..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pIx-g7-HG5">
+                                <rect key="frame" x="149" y="350" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="O10-cq-nli"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="rsI-gh-0LQ"/>
+                    <connections>
+                        <outlet property="paymentTextfield" destination="pIx-g7-HG5" id="6Ru-Pe-Ifk"/>
+                        <outlet property="paymentbutton" destination="WcA-D1-Rko" id="Skz-gs-8hl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9AD-Jz-PbE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1780" y="-685"/>
+        </scene>
         <!--Blog View-->
         <scene sceneID="Uso-Qh-beV">
             <objects>
@@ -273,7 +310,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p1C-MH-ylW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2547" y="-655"/>
+            <point key="canvasLocation" x="3066" y="-681"/>
         </scene>
         <!--CustomerHomeView-->
         <scene sceneID="poe-JA-Oil">
@@ -323,14 +360,22 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="HJE-tX-UfG">
-                                        <rect key="frame" x="197" y="76.333333333333371" width="186" height="34.333333333333343"/>
+                                        <rect key="frame" x="197" y="59.333333333333378" width="186" height="68.666666666666686"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m45-9y-f6f">
                                                 <rect key="frame" x="0.0" y="0.0" width="186" height="34.333333333333336"/>
                                                 <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Make a payment"/>
+                                                <connections>
+                                                    <segue destination="BMm-Y7-EC4" kind="show" id="kV7-1T-gfJ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rJm-R2-e2u">
+                                                <rect key="frame" x="0.0" y="34.333333333333258" width="186" height="34.333333333333343"/>
+                                                <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Blog"/>
                                                 <connections>
-                                                    <segue destination="zPI-Mo-8qe" kind="show" id="FyB-Q1-DJR"/>
+                                                    <segue destination="zPI-Mo-8qe" kind="show" id="nvL-gb-jb9"/>
                                                 </connections>
                                             </button>
                                         </subviews>

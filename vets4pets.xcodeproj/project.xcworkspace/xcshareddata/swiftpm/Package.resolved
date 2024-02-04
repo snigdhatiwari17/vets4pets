@@ -118,6 +118,15 @@
       }
     },
     {
+      "identity" : "razorpay-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jonathanjr3/Razorpay-spm",
+      "state" : {
+        "branch" : "main",
+        "revision" : "48c05f08222e92d6a2ca44dca83db02afa29762b"
+      }
+    },
+    {
       "identity" : "realm-core",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/realm/realm-core.git",
