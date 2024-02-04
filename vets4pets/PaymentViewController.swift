@@ -41,7 +41,7 @@ class PaymentViewController: UIViewController{
     
     override func viewDidLoad() {
           super.viewDidLoad()
-           razorpay = RazorpayCheckout.initWithKey("rzp_test_FYCQAsmKTFF8FR", andDelegate: self)
+           razorpay = RazorpayCheckout.initWithKey("rzp_test_VUdMJBs6M4duSh", andDelegate: self)
         }
             
             

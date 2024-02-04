@@ -8,6 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		F43AE4D42B6F54B600C71706 /* Razorpay in Frameworks */ = {isa = PBXBuildFile; productRef = F43AE4D32B6F54B600C71706 /* Razorpay */; };
+		F43AE4D92B6F705F00C71706 /* VisitLogsViewCOntroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43AE4D52B6F705E00C71706 /* VisitLogsViewCOntroller.swift */; };
+		F43AE4DA2B6F705F00C71706 /* VisitLogsViewCOntroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43AE4D52B6F705E00C71706 /* VisitLogsViewCOntroller.swift */; };
+		F43AE4DB2B6F705F00C71706 /* VisitLogsViewCOntroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43AE4D52B6F705E00C71706 /* VisitLogsViewCOntroller.swift */; };
+		F43AE4DC2B6F705F00C71706 /* EMRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43AE4D62B6F705F00C71706 /* EMRViewController.swift */; };
+		F43AE4DD2B6F705F00C71706 /* EMRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43AE4D62B6F705F00C71706 /* EMRViewController.swift */; };
+		F43AE4DE2B6F705F00C71706 /* EMRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43AE4D62B6F705F00C71706 /* EMRViewController.swift */; };
+		F43AE4DF2B6F705F00C71706 /* CurrentPrescriptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43AE4D72B6F705F00C71706 /* CurrentPrescriptionsViewController.swift */; };
+		F43AE4E02B6F705F00C71706 /* CurrentPrescriptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43AE4D72B6F705F00C71706 /* CurrentPrescriptionsViewController.swift */; };
+		F43AE4E12B6F705F00C71706 /* CurrentPrescriptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43AE4D72B6F705F00C71706 /* CurrentPrescriptionsViewController.swift */; };
+		F43AE4E22B6F705F00C71706 /* TreatmentHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43AE4D82B6F705F00C71706 /* TreatmentHistoryViewController.swift */; };
+		F43AE4E32B6F705F00C71706 /* TreatmentHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43AE4D82B6F705F00C71706 /* TreatmentHistoryViewController.swift */; };
+		F43AE4E42B6F705F00C71706 /* TreatmentHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43AE4D82B6F705F00C71706 /* TreatmentHistoryViewController.swift */; };
+		F43AE4E62B6F821800C71706 /* InventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43AE4E52B6F821800C71706 /* InventoryViewController.swift */; };
+		F43AE4E72B6F821800C71706 /* InventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43AE4E52B6F821800C71706 /* InventoryViewController.swift */; };
+		F43AE4E82B6F821800C71706 /* InventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43AE4E52B6F821800C71706 /* InventoryViewController.swift */; };
+		F43AE4EA2B6F86AC00C71706 /* Medicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43AE4E92B6F86AB00C71706 /* Medicine.swift */; };
+		F43AE4EB2B6F86AC00C71706 /* Medicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43AE4E92B6F86AB00C71706 /* Medicine.swift */; };
+		F43AE4EC2B6F86AC00C71706 /* Medicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43AE4E92B6F86AB00C71706 /* Medicine.swift */; };
+		F43AE4EE2B6F9F8700C71706 /* PaymentDatabaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43AE4ED2B6F9F8700C71706 /* PaymentDatabaseViewController.swift */; };
+		F43AE4EF2B6F9F8700C71706 /* PaymentDatabaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43AE4ED2B6F9F8700C71706 /* PaymentDatabaseViewController.swift */; };
+		F43AE4F02B6F9F8700C71706 /* PaymentDatabaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43AE4ED2B6F9F8700C71706 /* PaymentDatabaseViewController.swift */; };
 		F4AE15BE2B6BA79F00388609 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AE15BD2B6BA79F00388609 /* AppDelegate.swift */; };
 		F4AE15C02B6BA79F00388609 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AE15BF2B6BA79F00388609 /* SceneDelegate.swift */; };
 		F4AE15C22B6BA79F00388609 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AE15C12B6BA79F00388609 /* WelcomeViewController.swift */; };
@@ -111,6 +132,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F43AE4D52B6F705E00C71706 /* VisitLogsViewCOntroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitLogsViewCOntroller.swift; sourceTree = "<group>"; };
+		F43AE4D62B6F705F00C71706 /* EMRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EMRViewController.swift; sourceTree = "<group>"; };
+		F43AE4D72B6F705F00C71706 /* CurrentPrescriptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentPrescriptionsViewController.swift; sourceTree = "<group>"; };
+		F43AE4D82B6F705F00C71706 /* TreatmentHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreatmentHistoryViewController.swift; sourceTree = "<group>"; };
+		F43AE4E52B6F821800C71706 /* InventoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryViewController.swift; sourceTree = "<group>"; };
+		F43AE4E92B6F86AB00C71706 /* Medicine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Medicine.swift; sourceTree = "<group>"; };
+		F43AE4ED2B6F9F8700C71706 /* PaymentDatabaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDatabaseViewController.swift; sourceTree = "<group>"; };
 		F4AE15BA2B6BA79F00388609 /* vets4pets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vets4pets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4AE15BD2B6BA79F00388609 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4AE15BF2B6BA79F00388609 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -212,6 +240,7 @@
 			isa = PBXGroup;
 			children = (
 				F4AE15F72B6BB13300388609 /* GoogleService-Info.plist */,
+				F43AE4E92B6F86AB00C71706 /* Medicine.swift */,
 				F4D6BF2A2B6D2D700088CBA5 /* APICaller.swift */,
 				F4D6BF282B6D2D6F0088CBA5 /* NewsTableViewCell.swift */,
 				F4D6BF372B6D2EC20088CBA5 /* BlogViewController.swift */,
@@ -227,6 +256,10 @@
 				F4AE16672B6C0D3D00388609 /* LocationVCViewController.swift */,
 				F4AE16692B6C0D3D00388609 /* MapKitViewController.swift */,
 				F4AE16652B6C0D3D00388609 /* WalkLogCell.swift */,
+				F43AE4D72B6F705F00C71706 /* CurrentPrescriptionsViewController.swift */,
+				F43AE4D62B6F705F00C71706 /* EMRViewController.swift */,
+				F43AE4D82B6F705F00C71706 /* TreatmentHistoryViewController.swift */,
+				F43AE4D52B6F705E00C71706 /* VisitLogsViewCOntroller.swift */,
 				F4AE16662B6C0D3D00388609 /* WalkLogViewController.swift */,
 				F4AE16582B6C0BAE00388609 /* EKWrapper.swift */,
 				F4AE16462B6BD94600388609 /* chat */,
@@ -236,6 +269,8 @@
 				F4AE15F52B6BB00E00388609 /* CustomerHomeViewController.swift */,
 				F4AE163E2B6BD23F00388609 /* ChatViewController.swift */,
 				F4D6BF3D2B6D58930088CBA5 /* PaymentViewController.swift */,
+				F43AE4E52B6F821800C71706 /* InventoryViewController.swift */,
+				F43AE4ED2B6F9F8700C71706 /* PaymentDatabaseViewController.swift */,
 				F4AE15ED2B6BA88500388609 /* Constants.swift */,
 				F4AE15C32B6BA79F00388609 /* Main.storyboard */,
 				F4AE15C62B6BA7A100388609 /* Assets.xcassets */,
@@ -433,18 +468,25 @@
 				F4D6BF3E2B6D58930088CBA5 /* PaymentViewController.swift in Sources */,
 				F4AE16512B6C05A200388609 /* AppointmentViewController.swift in Sources */,
 				F4AE15F22B6BAFB200388609 /* SignUpViewController.swift in Sources */,
+				F43AE4E22B6F705F00C71706 /* TreatmentHistoryViewController.swift in Sources */,
 				F4AE163B2B6BD1D200388609 /* MessageCell.swift in Sources */,
 				F4AE16592B6C0BAE00388609 /* EKWrapper.swift in Sources */,
+				F43AE4EA2B6F86AC00C71706 /* Medicine.swift in Sources */,
+				F43AE4EE2B6F9F8700C71706 /* PaymentDatabaseViewController.swift in Sources */,
 				F4AE163F2B6BD23F00388609 /* ChatViewController.swift in Sources */,
 				F4AE15C22B6BA79F00388609 /* WelcomeViewController.swift in Sources */,
+				F43AE4DF2B6F705F00C71706 /* CurrentPrescriptionsViewController.swift in Sources */,
 				F4D6BF2B2B6D2D700088CBA5 /* SecretKey.swift in Sources */,
 				F4D6BF2E2B6D2D700088CBA5 /* NewsTableViewCell.swift in Sources */,
 				F4AE16762B6C0D3D00388609 /* MapKitViewController.swift in Sources */,
 				F4AE16702B6C0D3D00388609 /* LocationVCViewController.swift in Sources */,
 				F4AE16732B6C0D3D00388609 /* Extensions.swift in Sources */,
+				F43AE4D92B6F705F00C71706 /* VisitLogsViewCOntroller.swift in Sources */,
 				F4D6BF342B6D2D700088CBA5 /* APICaller.swift in Sources */,
 				F4AE15F62B6BB00E00388609 /* CustomerHomeViewController.swift in Sources */,
+				F43AE4E62B6F821800C71706 /* InventoryViewController.swift in Sources */,
 				F4AE16622B6C0D2C00388609 /* Location.swift in Sources */,
+				F43AE4DC2B6F705F00C71706 /* EMRViewController.swift in Sources */,
 				F4AE15BE2B6BA79F00388609 /* AppDelegate.swift in Sources */,
 				F4AE16432B6BD2A500388609 /* Message.swift in Sources */,
 				F4AE166D2B6C0D3D00388609 /* WalkLogViewController.swift in Sources */,
@@ -462,16 +504,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F43AE4E02B6F705F00C71706 /* CurrentPrescriptionsViewController.swift in Sources */,
 				F4AE15D52B6BA7A200388609 /* vets4petsTests.swift in Sources */,
 				F4D6BF2C2B6D2D700088CBA5 /* SecretKey.swift in Sources */,
 				F4D6BF3F2B6D58930088CBA5 /* PaymentViewController.swift in Sources */,
 				F4D6BF2F2B6D2D700088CBA5 /* NewsTableViewCell.swift in Sources */,
+				F43AE4E32B6F705F00C71706 /* TreatmentHistoryViewController.swift in Sources */,
 				F4AE16442B6BD2A500388609 /* Message.swift in Sources */,
+				F43AE4EB2B6F86AC00C71706 /* Medicine.swift in Sources */,
 				F4AE16632B6C0D2C00388609 /* Location.swift in Sources */,
 				F4AE16402B6BD23F00388609 /* ChatViewController.swift in Sources */,
 				F4AE165A2B6C0BAE00388609 /* EKWrapper.swift in Sources */,
 				F4AE16522B6C05A200388609 /* AppointmentViewController.swift in Sources */,
 				F4AE16772B6C0D3D00388609 /* MapKitViewController.swift in Sources */,
+				F43AE4DD2B6F705F00C71706 /* EMRViewController.swift in Sources */,
+				F43AE4EF2B6F9F8700C71706 /* PaymentDatabaseViewController.swift in Sources */,
+				F43AE4E72B6F821800C71706 /* InventoryViewController.swift in Sources */,
 				F4FBCC662B6C1C9E00498170 /* NotificationPublisher.swift in Sources */,
 				F4AE16602B6C0D2C00388609 /* Walk.swift in Sources */,
 				F4AE16742B6C0D3D00388609 /* Extensions.swift in Sources */,
@@ -481,6 +529,7 @@
 				F4AE166B2B6C0D3D00388609 /* WalkLogCell.swift in Sources */,
 				F4AE166E2B6C0D3D00388609 /* WalkLogViewController.swift in Sources */,
 				F4AE163C2B6BD1D200388609 /* MessageCell.swift in Sources */,
+				F43AE4DA2B6F705F00C71706 /* VisitLogsViewCOntroller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,12 +538,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4D6BF3A2B6D2EC20088CBA5 /* BlogViewController.swift in Sources */,
+				F43AE4EC2B6F86AC00C71706 /* Medicine.swift in Sources */,
+				F43AE4DB2B6F705F00C71706 /* VisitLogsViewCOntroller.swift in Sources */,
 				F4AE16532B6C05A200388609 /* AppointmentViewController.swift in Sources */,
+				F43AE4DE2B6F705F00C71706 /* EMRViewController.swift in Sources */,
+				F43AE4E42B6F705F00C71706 /* TreatmentHistoryViewController.swift in Sources */,
 				F4AE15DF2B6BA7A200388609 /* vets4petsUITests.swift in Sources */,
 				F4AE16782B6C0D3D00388609 /* MapKitViewController.swift in Sources */,
+				F43AE4E82B6F821800C71706 /* InventoryViewController.swift in Sources */,
 				F4FBCC672B6C1C9E00498170 /* NotificationPublisher.swift in Sources */,
 				F4AE163D2B6BD1D200388609 /* MessageCell.swift in Sources */,
 				F4AE166C2B6C0D3D00388609 /* WalkLogCell.swift in Sources */,
+				F43AE4E12B6F705F00C71706 /* CurrentPrescriptionsViewController.swift in Sources */,
 				F4D6BF402B6D58930088CBA5 /* PaymentViewController.swift in Sources */,
 				F4AE166F2B6C0D3D00388609 /* WalkLogViewController.swift in Sources */,
 				F4D6BF362B6D2D700088CBA5 /* APICaller.swift in Sources */,
@@ -505,6 +560,7 @@
 				F4AE16752B6C0D3D00388609 /* Extensions.swift in Sources */,
 				F4AE16612B6C0D2C00388609 /* Walk.swift in Sources */,
 				F4AE16412B6BD23F00388609 /* ChatViewController.swift in Sources */,
+				F43AE4F02B6F9F8700C71706 /* PaymentDatabaseViewController.swift in Sources */,
 				F4D6BF302B6D2D700088CBA5 /* NewsTableViewCell.swift in Sources */,
 				F4AE15E12B6BA7A200388609 /* vets4petsUITestsLaunchTests.swift in Sources */,
 				F4AE165B2B6C0BAE00388609 /* EKWrapper.swift in Sources */,

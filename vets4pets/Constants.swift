@@ -11,7 +11,7 @@ let REALM_QUEUE = DispatchQueue(label: "realmQueue") //global variable
 let REALM = "realRunConfig"
 
 struct K {
- 
+    static let resusableEMRcell = "EMRcell"
     static let cellIdentifier = "ReusableCell"
     static let cellNibName = "MessageCell"
     static let registerSegue = "RegisterToChat"
